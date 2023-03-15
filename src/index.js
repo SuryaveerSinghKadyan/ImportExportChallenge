@@ -5,6 +5,9 @@ import ReactDOM from "react-dom";
 //To export multiple things from the same file the exact variable or function names as used in the file from which they are exported must be used and put within {} curly brackets separeted by ,
 import ADD from "./calculator";
 import { multiply, subtract, divide } from "./calculator";
+//this also can be used:
+// import ADD, { multiply, subtract, divide } from "./calculator";
+
 
 ReactDOM.render(
   <ul>
